@@ -1,0 +1,6 @@
+CompileFlags:
+     Add:
+          - "-Iinclude"
+          - "-std=c++17"
+          - "-O2"
+          - "-o anvil.exe"
