@@ -1,0 +1,24 @@
+{
+    "ANVIL_VERSION": "1.0.0",
+    "BUILDER_INFO": "Anvil CLI C/C++ builder, check out more on github.",
+    "PROJECT_NAME": "anvil",
+    "flags": [
+        {
+            "flag": "-std=c++17",
+            "value": null
+        },
+        {
+            "flag": "-o",
+            "value": "bin/anvil.exe"
+        },
+        {
+            "flag": "-O2",
+            "value": null
+        }
+    ],
+    "includes": [
+        "main.cpp",
+        "src\\anvil.cpp",
+        "src\\config\\config.cpp"
+    ]
+}
