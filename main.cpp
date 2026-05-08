@@ -82,10 +82,10 @@ int main(int argc, char* argv[])
     // {
     //     return anvil.start();
     // }
-    else if (command == "list-flags")
-    {
-        return anvil.start();
-    }
+    // else if (command == "list-flags")
+    // {
+    //     return anvil.start();
+    // }
     else
     {
         std::cerr << "Error: unknown command '" << command << "'\n\n";
